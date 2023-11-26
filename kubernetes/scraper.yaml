@@ -1,5 +1,15 @@
 ---
 apiVersion: v1
+kind: ConfigMap
+metadata:
+  labels:
+    app: jobify-scraper-parameters
+  name: jobify-scraper-parameters
+data: 
+  parameters.json: | 
+    {"server_name" : "jobify-db", "user_name":"root", "password": "root", "db_name": "srijas", "linked_in_pwd":"SRIJASGMAILPWD"}
+---
+apiVersion: v1
 kind: Service
 metadata:
   labels:
@@ -46,5 +56,12 @@ spec:
             - containerPort: 8000
               name: http
               protocol: TCP
-
+          volumeMounts:
+            - mountPath: /app/parameters.json
+              subPath: parameters.json
+              name: jobify-scraper-parameters
+      volumes:
+        - name: jobify-scraper-parameters
+          configMap:
+            name: jobify-scraper-parameters
 ---
