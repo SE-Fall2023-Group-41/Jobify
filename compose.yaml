@@ -23,7 +23,7 @@ services:
         condition: service_healthy
         restart: true
     ports:
-      - 8080:80
+      - 8080:8080
   scraper:
     build: 
       context: ./code/Scraper

@@ -220,7 +220,7 @@ spec:
         - env:
             - name: MYSQL_ROOT_PASSWORD
               value: root
-          image: registry.redhat.io/rhel8/mysql-80
+          image: mysql
           imagePullPolicy: IfNotPresent
           name: mysql
           ports:
@@ -235,9 +235,9 @@ spec:
           terminationMessagePath: /dev/termination-log
           terminationMessagePolicy: File
           volumeMounts:
-            - mountPath: /var/lib/mysql/data
+            - mountPath: /var/lib/mysql
               name: postgresql-data
-            - mountPath: /mysql-init
+            - mountPath: /docker-entrypoint-initdb.d
               name: mysql-initdb  
       dnsPolicy: ClusterFirst
       restartPolicy: Always
