@@ -6,7 +6,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![version](https://img.shields.io/badge/version-3.0-blue)](https://github.com/Swaranjali167/Jobify/releases/tag/publish)
 [![codecov](https://codecov.io/gh/Swaranjali167/Jobify/branch/main/graph/badge.svg?token=Z9MGKKAXN6)](https://codecov.io/gh/Swaranjali167/Jobify)
-[![DOI](https://zenodo.org/badge/704729732.svg)](https://zenodo.org/doi/10.5281/zenodo.10015683)
+[![DOI](https://zenodo.org/badge/718360869.svg)](https://zenodo.org/doi/10.5281/zenodo.10211371)
 [![GitHub issues](https://img.shields.io/github/issues/Swaranjali167/Jobify)](https://github.com/Swaranjali167/Jobify/issues)
 [![GitHub closed issues](https://img.shields.io/github/issues-closed/Swaranjali167/Jobify)](https://github.com/Swaranjali167/Jobify/issues?q=is%3Aissue+is%3Aclosed)
 [![Github pull requests](https://img.shields.io/github/issues-pr/Swaranjali167/Jobify)](https://github.com/Swaranjali167/Jobify/pulls?q=is%3Aopen+is%3Apr)
