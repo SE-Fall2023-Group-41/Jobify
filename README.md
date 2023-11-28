@@ -68,6 +68,9 @@ Discover opportunities seamlessly across these platforms and take the next step 
 ### Database Integration
 In the previous project, job notifications were sent via email. Now, we have integrated a database to store these job opportunities, providing users with the option to view them directly on the dashboard.
 
+### PHP Code Compatibility
+Addressed incompatibilities with newer PHP versions when dockerizing the application. Made necessary changes to the PHP codebase to ensure seamless compatibility, enhancing the overall stability and performance of the application in modern environments.
+
 ### Interactive Dashboard
 Experience a major upgrade with the addition of an interactive dashboard. Now, you can conveniently view and explore job opportunities at any time, enhancing your overall user experience. Along with curated list of jobs opportunities sent via emails. 
 
@@ -103,7 +106,10 @@ Welcome to Jobify – your open-source companion for a streamlined job-hunting e
 
 ## Working Demo
 
-https://github.com/Swaranjali167/Jobify/assets/72608245/17107cf3-d1af-4586-8ef1-bcd36a8ab25d
+
+
+
+https://github.com/SE-Fall2023-Group-41/Jobify/assets/62643830/fa815e0a-b938-430d-9850-1cc82505d3e4
 
 
 
