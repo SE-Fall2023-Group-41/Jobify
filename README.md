@@ -1,5 +1,5 @@
 <p align="center">
-  <h1>Jobify: Streamlining Your Job Hunt Experience 🚀</h1>
+  <h1>Jobify: Streamlining Your Job Hunting Experience 🚀</h1>
 </p>
 <p align="center"><a data-flickr-embed="true" href="https://www.flickr.com/photos/199366397@N04" title=""><img src="https://live.staticflickr.com/65535/53268853935_20612ec5a2_q.jpg" width="250" height="250" alt=""/></a></p>
 
